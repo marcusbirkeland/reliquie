@@ -26,7 +26,7 @@ I even added a derpy little cloth for testing:
 
 ![Model in engine 2](/img/post4/model2.png)
 
-For now, i am quite happy with the character mesh. I would like to polish the materials and clothing later, but for now i think it looks good enough:
+After this, i added more elaborate clothing, and brushed up on some materials. For now, i am quite happy with the character mesh. I would like to polish the materials and clothing later, but for now i think it looks good enough:
 
 ![Player](/img/post4.png)
 
