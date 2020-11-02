@@ -7,7 +7,7 @@ In the beginning, my idea was to have a shapeshifting type of main character, ki
 
 So i asked my wonderfull and talented sister, Aslaug, and she came up with some character sketches i just instantly fell in love with:
 
-<div>
+<div className="imageContainer">
   <img width="320" src="/img/post4/face_sketches.jpg" alt="sketches of character face"/>
   <img width="320" src="/img/post4/character_sketch.jpg" alt="sketches of player"/>
 </div>

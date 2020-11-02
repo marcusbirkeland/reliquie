@@ -185,3 +185,11 @@ iframe {
   max-width: 800px;
   height: 450px;
 }
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+  max-width: 100%;
+}
