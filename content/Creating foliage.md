@@ -1,6 +1,5 @@
 # Creating grass
-
-![Grass](/img/post3/grass.png)
+![Trees test](/img/post3.png)
 
 My first real challange came when it came to making foliage. I had absolutely no idea how i might do this. However after a day of trial-and-error i made a grass mesh by modeling low-poly blades of grass, and duplicating them with the hair particle system in Blender.
 
@@ -12,5 +11,8 @@ My woods were looking kind of barren without any leaves on the trees, so i had t
 
 After adding planes with my new leaf material to the trees, the end result looked like this:
 
-![Trees test](/img/post3.png)
+<iframe src="https://www.youtube.com/embed/jgrKHR4f_lc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Useful resources
+
+- [Tutorial for modeling grass](https://youtu.be/_oTzRjiVhiE) 

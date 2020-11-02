@@ -23,3 +23,8 @@ At last i put all i had created in a scene, and made a quick render!
 ![Blender render](/img/post1.png)
 
 With a newfound confidence in the project, i was ready for diving into Unreal Engine 4.
+
+
+### Useful resources
+
+- [Modeling trees](https://www.youtube.com/watch?v=y7PdiGXbrD0)

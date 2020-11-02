@@ -180,3 +180,8 @@ section>h2{
     margin-left: 0px;
   }
 }
+
+iframe {
+  max-width: 800px;
+  height: 450px;
+}

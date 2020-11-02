@@ -18,3 +18,8 @@ One thing i was excited to try out in UE4, was the real-time ray-tracing capabil
 ![Water shader](/img/post2/water.png)
 
 
+### Useful resources
+
+- [Unreal Engine 4 Basics](https://www.youtube.com/watch?v=a0qNO6_xPx0&list=PL4mRaHZim4UTyyckQNrGnsQuc61dSJRwd) - really nice beginner series
+- [Simple auto-landscape material](https://www.youtube.com/watch?v=-h4-h8zyVzE)
+
