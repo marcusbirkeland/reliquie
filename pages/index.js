@@ -9,6 +9,11 @@ export default function Home() {
     <Head>
       <title>ReLiquie</title>
       <link rel="icon" href="/favicon.ico" />
+      <meta property="og:url"                content="http://www.reliquie.now.sh" />
+      <meta property="og:type"               content="blog" />
+      <meta property="og:title"              content="ReLiquie" />
+      <meta property="og:description"        content="In development for Nintendo Switch and PC" />
+      <meta property="og:image"              content="/img/hero.png" />
     </Head>
     <Layout>
       <div className="aboutContainer">
