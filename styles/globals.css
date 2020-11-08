@@ -181,10 +181,16 @@ section>h2{
   }
 }
 
-iframe {
+iframe,video {
   max-width: 800px;
   height: 450px;
 }
+
+iframe{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
 .imageContainer {
   display: flex;
   flex-direction: row;
