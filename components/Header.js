@@ -83,7 +83,7 @@ const Header = () => (
       `}</style>
       <div className="headerItems">
         <div className="titleContainer">
-          <a><img src="/icon2.PNG" height="100" width="100"/></a>
+          <a><img src="/icon2.png" height="100" width="100"/></a>
           <Link href="/">
             <a><h1 className="neon">ReLiquie</h1></a>
           </Link>
