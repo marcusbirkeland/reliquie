@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout from "../components/MyLayout";
 import BlogPostCard from "../components/BlogPostCard";
 import posts from "../content/BlogPosts"
+import buildlink from '../content/buildlink'
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
     <Layout>
       <div className="aboutContainer">
         <img src="/img/hero.png" alt="Hero" class="hero"/>
-        <div class="aboutContent">
+        <div className="aboutContent">
           <h2>This is ReLiquie</h2>
           <p> 
             - Inspired by N64 nostalgia<br></br>
@@ -34,6 +35,33 @@ export default function Home() {
           {GetAllPosts()}
         </div>
       </section>
+      <div className="downloadContainer">
+        <div className="downloadInfo">
+        <img src="/praise.PNG"/>
+        <div className="innerDownload">
+          <h2>Try it!</h2>
+          <h3>What to expect: </h3>
+          <ul>
+            <li>Demo map</li>
+            <li>Movement, basic attacks and magic.</li>
+            <li>1 enemy type.</li>
+          </ul>
+          <p>Current build: b4</p>
+          <a href={buildlink}><button>Download</button></a>
+        </div>
+
+        </div>
+        <div className="screenshotSection">
+          <div className="doubleIMG">
+            <img src="/screen2.PNG"/>
+            <img src="/screen3.PNG"/>
+          </div>
+          <div className="doubleIMG">
+            <img src="/img/post6/UI.PNG"/>
+            <img src="/img/hero.PNG"/>
+          </div>
+        </div>
+      </div>
     </Layout>
     </>
   )}

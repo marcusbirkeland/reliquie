@@ -1,9 +1,11 @@
 import Link from 'next/link'
+import buildlink from '../content/buildlink'
 
 const linkStyle = {
   marginRight: 15
   
 };
+
 
 const Header = () => (
   <div className="headerContainer">
@@ -90,9 +92,7 @@ const Header = () => (
           <Link href="/">
             <a>Blog</a>
           </Link>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
+           <a href={buildlink}>Try</a>
         </div>
     </div>
   </div>
