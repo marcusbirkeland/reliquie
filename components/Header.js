@@ -8,6 +8,10 @@ const linkStyle = {
 const Header = () => (
   <div className="headerContainer">
     <style jsx>{`
+
+    .headerContainer{
+      background-color:#000;
+    }
       .neon {
         color: #fff;
         text-shadow:
@@ -25,8 +29,6 @@ const Header = () => (
       h1{
         font-size:1.3em;
         color:#fff;
-        padding:12px;
-        margin-left: 32px;
       }
        a{
          text-decoration:none;
@@ -68,11 +70,22 @@ const Header = () => (
           margin-top:8px;
         }
       }
+
+      .titleContainer{
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items:center;
+      }
+
       `}</style>
       <div className="headerItems">
-      <Link href="/">
-        <a><h1 className="neon">ReLiquie</h1></a>
-      </Link>
+        <div className="titleContainer">
+          <a><img src="/icon2.PNG" height="100" width="100"/></a>
+          <Link href="/">
+            <a><h1 className="neon">ReLiquie</h1></a>
+          </Link>
+        </div>
         <div className="linkContainer">
           <Link href="/">
             <a>Blog</a>

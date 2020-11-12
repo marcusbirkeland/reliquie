@@ -8,7 +8,7 @@ export default function Home() {
     <>
     <Head>
       <title>ReLiquie</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon.PNG" />
       <meta property="og:url" content="http://www.reliquie.now.sh" />
       <meta property="og:type" content="blog" key="blog"/>
       <meta property="og:title"  content="ReLiquie" key="title" />
