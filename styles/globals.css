@@ -211,6 +211,7 @@ iframe{
   padding:24px;
   margin-bottom: 64px;
   flex-wrap: wrap;
+  
 }
 
 
@@ -221,15 +222,6 @@ iframe{
 }
 
 
-@media screen and (max-width: 800px) {
-
-  .downloadContainer{
-    justify-content: space-around;
-  }
-  .innerDownload{
-    padding-right: 0px;
-  }
-}
 
 .innerDownload>ul{
   max-width: 200px;
@@ -278,4 +270,21 @@ button:hover{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .downloadContainer{
+    justify-content: space-around;
+  }
+  .innerDownload{
+    padding-right: 0px;
+  }
+
+  .doubleIMG>img{
+    width: 300px;
+    height: 180px;
+    padding: 12px;
+  }
 }

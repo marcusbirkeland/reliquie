@@ -59,6 +59,9 @@ const Header = () => (
         margin-left: 10%;
       }
       @media screen and (max-width: 800px) {
+        h1{
+          font-size:1.5em;
+        }
         .linkContainer{
           margin-left:0px;
         }
@@ -70,6 +73,11 @@ const Header = () => (
         }
         a{
           margin-top:8px;
+          margin-right: 12px;
+        }
+        #logo{
+          height: 50px;
+          width:50px;
         }
       }
 
@@ -83,7 +91,7 @@ const Header = () => (
       `}</style>
       <div className="headerItems">
         <div className="titleContainer">
-          <a><img src="/icon2.png" height="100" width="100"/></a>
+          <a><img id="logo"src="/icon2.png" height="100" width="100"/></a>
           <Link href="/">
             <a><h1 className="neon">ReLiquie</h1></a>
           </Link>
