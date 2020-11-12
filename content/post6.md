@@ -1,7 +1,7 @@
 # Magic, Camera, Hyperbeam!
 In this update I have added magic projectiles, a way to aim at targets in third-person, and a super attack! Fighting the crow enemies with purely melee attacks was a bit too difficult, so I decided to implement ranged attacks as soon as possible, in order to get a feel for different styles of fighting.
 
-![Hyperbeam-image](/img/post6.png)
+![Hyperbeam-image](/img/post6.PNG)
 
 ## Camera aim
 
@@ -44,7 +44,7 @@ I wanted the crosshair to be dynamic, so that the player would get a better feel
 Having infinite uses of magic and <i>HYPERBEAM</i> would break the game, as melee combat is far inferior. Therefore, I need to restrict their usage in a way. I decided to have a MP-guage for the basic projectiles, and have one-time charges for the hyperbeam. This way, combat is more balanced, and getting drops for the hyper-beam will be super-rewarding. 
 I got to work, and made a quick icon for beam usage, and added a MP-bar for the character. 
 
-![Early HUD-design](/img/post6/UI.png)
+![Early HUD-design](/img/post6/UI.PNG)
 
 <i>Please note</i> that I am currently just testing UI functionality. Most HUD-elements (except the stamina bar), are work-in-progress, and will not be a part of the final game!
 
