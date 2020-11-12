@@ -38,10 +38,10 @@ const BlogPostCard = props => (
                 `}  
 
             </style>
-            <Link href="/post/[slug]" as={`/post/${props.title}`}>
+            <Link href="/post/[slug]" as={`/post/${props.url}`}>
                 <a className="imageLink"><img src={props.img} /></a>
             </Link>
-            <Link href="/post/[slug]" as={`/post/${props.title}`}>
+            <Link href="/post/[slug]" as={`/post/${props.url}`}>
                 <a><h2>{props.title}</h2></a>
             </Link>
             <p className="date"> Date: {props.date}</p>

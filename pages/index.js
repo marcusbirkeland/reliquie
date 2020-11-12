@@ -41,7 +41,7 @@ export default function Home() {
   const GetAllPosts = () => {
     return(
       <>
-        {posts.sort((a, b) => new Date(b.date) - new Date (a.date)).map(post => <BlogPostCard date={post.date} title={post.title} desc={post.desc} img={post.img}/>)}
+        {posts.sort((a, b) => new Date(b.date) - new Date (a.date)).map(post => <BlogPostCard date={post.date} title={post.title} desc={post.desc} img={post.img} url={post.url}/>)}
       </>
     )
   }
