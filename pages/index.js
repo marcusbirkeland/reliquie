@@ -37,7 +37,7 @@ export default function Home() {
       </section>
       <div className="downloadContainer">
         <div className="downloadInfo">
-        <img src="/praise.PNG"/>
+        <img src="/praise.png"/>
         <div className="innerDownload">
           <h2>Try it!</h2>
           <h3>What to expect: </h3>
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <div className="doubleIMG">
             <img src="/img/post6/UI.PNG"/>
-            <img src="/img/hero.PNG"/>
+            <img src="/img/hero.png"/>
           </div>
         </div>
       </div>
