@@ -46,7 +46,7 @@ export default function Home() {
             <li>Movement, basic attacks and magic.</li>
             <li>1 enemy type.</li>
           </ul>
-          <p>Current build: b4</p>
+          <p>Current build: b5</p>
           <a href={buildlink}><button>Download</button></a>
         </div>
 
