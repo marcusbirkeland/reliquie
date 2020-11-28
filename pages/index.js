@@ -42,11 +42,12 @@ export default function Home() {
           <h2>Try it!</h2>
           <h3>What to expect: </h3>
           <ul>
-            <li>Demo map</li>
+            <li>Overworld + 1 short level.</li>
             <li>Movement, basic attacks and magic.</li>
+            <li>Rewind magic</li>
             <li>1 enemy type.</li>
           </ul>
-          <p>Current build: b5</p>
+          <p>Current build: B6</p>
           <a href={buildlink}><button>Download</button></a>
         </div>
 
@@ -54,11 +55,11 @@ export default function Home() {
         <div className="screenshotSection">
           <div className="doubleIMG">
             <img src="/screen2.PNG"/>
-            <img src="/screen3.PNG"/>
+            <img src="/screen_overworld.PNG"/>
           </div>
           <div className="doubleIMG">
-            <img src="/img/post6/UI.PNG"/>
-            <img src="/img/hero.png"/>
+            <img src="/screen_rewind.PNG"/>
+            <img src="/screen_realm.PNG"/>
           </div>
         </div>
       </div>
