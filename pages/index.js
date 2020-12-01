@@ -19,7 +19,7 @@ export default function Home() {
     </Head>
     <Layout>
       <div className="aboutContainer">
-        <img src="/img/hero.png" alt="Hero" class="hero"/>
+        <img src="/img/hero2.png" alt="Hero" class="hero"/>
         <div className="aboutContent">
           <h2>This is ReLiquie</h2>
           <p> 
