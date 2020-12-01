@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.21.0",
     "codeblock": "^0.3.15",
     "glob": "^7.1.6",
     "gray-matter": "^4.0.2",

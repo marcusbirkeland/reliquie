@@ -3,6 +3,7 @@ import Layout from "../components/MyLayout";
 import BlogPostCard from "../components/BlogPostCard";
 import posts from "../content/BlogPosts"
 import buildlink from '../content/buildlink'
+import ContactForm from '../components/EmailForm'
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         </div>
       </div>
       <section>
+      <ContactForm/>
         <h2>Development updates </h2>
         <div className="postsContainer">
           {GetAllPosts()}
@@ -47,8 +49,9 @@ export default function Home() {
             <li>Rewind magic</li>
             <li>1 enemy type.</li>
           </ul>
-          <p>Current build: B6</p>
+          <p >Send feedback to: <b>Reliquiegame@gmail.com </b></p>
           <a href={buildlink}><button>Download</button></a>
+
         </div>
 
         </div>
@@ -63,6 +66,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <footer>
+        <p>Icons from <a href="https://icons8.com/"> Icons8</a></p>
+      </footer>
     </Layout>
     </>
   )}
