@@ -100,7 +100,7 @@ const Header = () => (
           <Link href="/">
             <a>Blog</a>
           </Link>
-           <a href={buildlink}>Try</a>
+           <a href={buildlink}>Download</a>
         </div>
     </div>
   </div>

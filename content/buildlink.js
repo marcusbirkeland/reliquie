@@ -1,1 +1,1 @@
-export default "https://mega.nz/file/WuB2XZzL#8qyUjsoqJwQc7cR9D4ceq6MKFzf3gJcwTLVTQ-C8qjI";
+export default "https://drive.google.com/file/d/1Ic_3BFjXPNWvG9WjecjiIwmD7v3QkBBD/view?usp=sharing";
