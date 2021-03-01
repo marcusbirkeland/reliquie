@@ -15,7 +15,7 @@ export default function Home() {
       <meta property="og:type" content="blog" key="blog"/>
       <meta property="og:title"  content="ReLiquie" key="title" />
       <meta property="og:description" content="In development for Nintendo Switch and PC" key="description"/>
-      <meta property="og:image"  content="/img/hero.png" key="shareimage"/>
+      <meta property="og:image"  content="/screen_tutorials.png" key="shareimage"/>
     </Head>
     <Layout>
       <div className="aboutContainer">
